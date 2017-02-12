@@ -66,28 +66,39 @@
   width: 100%; }
 
 .red {
-  background: red; }
+  background: red;
+  color: white; }
 
 .green {
-  background: green; }
+  background: green;
+  color: white; }
 
 .yellow {
-  background: yellow; }
+  background: yellow;
+  color: blue; }
 
 .orange {
-  background: orange; }
+  background: orange;
+  color: blue; }
 
 .blue {
-  background: blue; }
+  background: blue;
+  color: white; }
 
 .purple {
-  background: purple; }
+  background: purple;
+  color: white; }
 
 .indigo {
-  background: indigo; }
+  background: indigo;
+  color: white; }
 
 .violet {
-  background: violet; }
+  background: violet;
+  color: white; }
 
 .container {
   color: white; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
