@@ -6,6 +6,7 @@ const babelify = require('babelify');
 const source = require('vinyl-source-stream');
 const gutil = require('gulp-util');
 const connect = require('gulp-connect');
+const sass = require('gulp-sass');
 
 gulp.task('scripts', function() {
   browserify('src/js/index.js')
@@ -25,19 +26,16 @@ gulp.task('assets', function() {
 
 // compile the sass
 gulp.task('sass', function() {
-
-});
-
-// move the vendor stuff here
-gulp.task('vendor', function() {
-  gulp.src('node_modules/bootstrap/dist/css/bootstrap.min.css')
-    .pipe(gulp.dest('docs/css/'))
+  return gulp.src('src/sass/**/*.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('docs/css'));
 });
 
 // watch my stuffs
 gulp.task('watch', function() {
   gulp.watch(['src/**/*.html'], ['assets']);
-  gulp.watch(['src/**/*.js'], ['scripts']);
+  gulp.watch(['src/js/**/*.js'], ['scripts']);
+  gulp.watch(['src/sass/**/*.scss'], ['sass']);
 });
 
 // dev server
@@ -48,4 +46,4 @@ gulp.task('serve', function() {
   });
 });
 
-gulp.task('default', ['scripts', 'assets', 'vendor', 'sass', 'serve', 'watch']);
+gulp.task('default', ['scripts', 'assets', 'sass', 'serve', 'watch']);
