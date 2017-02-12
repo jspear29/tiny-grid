@@ -18,13 +18,16 @@ $media-sizes: (
       }
     }
   }
+
+  @media  only screen and (max-width : $width){
+    .#{$size}-hidden {
+      display: none ;
+    }
+  }
+
 }
 
 .#{$row-slug} {
   width: $container-width + %;
   display: block;
-}
-
-.container {
-  width: $container-width + %;
 }

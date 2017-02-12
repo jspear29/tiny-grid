@@ -8,52 +8,64 @@
   <link rel="stylesheet" href="css/index.css">
   <title></title>
 </head>
-
+<!-- 629px -->
 <body>
-  <h1>sassy-grid</h1>
-  <div class="container">
-    <div class="row">
-      <div class="violet col-sm-12 col-xs-12">col-sm-12</div>
-    </div>
-    <div class="row">
-      <div class="violet col-sm-6 col-xs-12">col-sm-6</div>
-      <div class="blue col-sm-6 col-xs-12">col-sm-6</div>
-    </div>
-    <div class="row">
-      <div class="red col-sm-4 col-xs-6">col-sm-4</div>
-      <div class="orange col-sm-4 col-xs-6">col-sm-4</div>
-      <div class="yellow col-sm-4 col-xs-12">col-sm-4</div>
-    </div>
-    <div class="row">
-      <div class="red col-sm-3">col-sm-3</div>
-      <div class="orange col-sm-3">col-sm-3</div>
-      <div class="yellow col-sm-3">col-sm-3</div>
-      <div class="green col-sm-3">col-sm-3</div>
-    </div>
-    <div class="row">
-      <div class="red col-sm-2">col-sm-2</div>
-      <div class="orange col-sm-2">col-sm-2</div>
-      <div class="yellow col-sm-2">col-sm-2</div>
-      <div class="green col-sm-2">col-sm-2</div>
-      <div class="blue col-sm-2">col-sm-2</div>
-      <div class="indigo col-sm-2">col-sm-2</div>
-    </div>
-    <div class="row">
-      <div class="red col-sm-1">col-sm-1</div>
-      <div class="orange col-sm-1">col-sm-1</div>
-      <div class="yellow col-sm-1">col-sm-1</div>
-      <div class="green col-sm-1">col-sm-1</div>
-      <div class="blue col-sm-1">col-sm-1</div>
-      <div class="indigo col-sm-1">col-sm-1</div>
-      <div class="violet col-sm-1">col-sm-1</div>
-      <div class="red col-sm-1">col-sm-1</div>
-      <div class="orange col-sm-1">col-sm-1</div>
-      <div class="yellow col-sm-1">col-sm-1</div>
-      <div class="green col-sm-1">col-sm-1</div>
-      <div class="blue col-sm-1">col-sm-1</div>
+  <div class="row">
+    <div class="meow-xs-12">
+      <h1>tiny-grid</h1>
     </div>
   </div>
-  <script src="js/index.js" charset="utf-8"></script>
+  <div class="row">
+    <div class="meow-xs-12 meow-sm-6">
+      <h2>my attempt at writing a simple responsive grid</h2>
+    </div>
+    <div class="meow-xs-12 meow-sm-6">
+      <p>
+        i've been a suffering from something of a "coders" block
+        recently, and haven't any ideas for great projects. so
+        i thought why not try something really small that on a concept
+        i didn't have a strong understanding of.  like everyone else
+        i've used grid system for years, but never really thought about
+        how one actually works
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="meow-xs-12">
+      <h2>examples:</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="red meow-xs-12 meow-sm-6 meow-md-3 meow-lg-1"></div>
+    <div class="orange meow-xs-12 meow-sm-6 meow-md-3 meow-lg-1"></div>
+    <div class="yellow meow-xs-12 meow-sm-6 meow-md-3 meow-lg-1"></div>
+    <div class="green meow-xs-12 meow-sm-6 meow-md-3 meow-lg-1"></div>
+    <div class="blue meow-xs-12 meow-sm-6 meow-md-3 meow-lg-1"></div>
+    <div class="indigo meow-xs-12 meow-sm-6 meow-md-3 meow-lg-1"></div>
+    <div class="violet meow-xs-12 meow-sm-6 meow-md-3 meow-lg-1"></div>
+    <div class="red xs-hidden sm-hidden md-hidden meow-lg-1"></div>
+    <div class="orange xs-hidden sm-hidden md-hidden meow-lg-1"></div>
+    <div class="yellow xs-hidden sm-hidden md-hidden meow-lg-1"></div>
+    <div class="green xs-hidden sm-hidden md-hidden meow-lg-1"></div>
+    <div class="blue xs-hidden sm-hidden md-hidden meow-lg-1"></div>
+  </div>
+  <div class="row">
+    <div class="meow-xs-12">
+      <h2>configuration: </h2>
+    </div>
+    <div class="meow-xs-6">
+      $col-slug: 'col' !default;
+    </div>
+    <div class="meow-xs-6">
+      defines the prefix for columns.  this site uses meow. eg. meow-xs-12
+    </div>
+    <div class="meow-xs-6">
+      $row-slug: 'row' !default;
+    </div>
+    <div class="meow-xs-6">
+      defines class for row
+    </div>
+  </div>
 </body>
 
 </html>

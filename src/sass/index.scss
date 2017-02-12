@@ -1,4 +1,7 @@
-@import 'all';
+
+$col-slug: 'meow';
+
+@import 'tiny-grid';
 
 .red {
   background: red;
@@ -37,11 +40,6 @@
 
 .violet {
   background: violet;
-  color: white;
-}
-
-
-.container {
   color: white;
 }
 
