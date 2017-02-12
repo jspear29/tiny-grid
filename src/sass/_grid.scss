@@ -2,8 +2,7 @@
 
 // create columns by looping over the number of cols and width variables
 @for $i from 1 through $number-of-cols {
-  .col-#{$i} {
-    float: left;
+  .#{$col-slug}-#{$i} {
     box-sizing: border-box;
     padding: $col-padding;
     width: ( $container-width  * ($i / $number-of-cols) ) + %;
@@ -12,9 +11,9 @@
 
 .row {
   width: $container-width + %;
+  display: flex;
 }
 
 .container {
   width: $container-width + %;
-  display: inline-block;
 }
