@@ -7,4 +7,4 @@ let's change that.
 
 
 ## demo
-https://jspear29.github.io/sassy-grid/index.html
+https://jspear29.github.io/tiny-grid/index.html
