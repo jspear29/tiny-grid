@@ -1,66 +1,254 @@
-.col-1 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 8.33333%; }
+@media only screen and (min-width: 380px) {
+  .col-xs-1 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 8.33333%; }
+  .col-xs-2 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 16.66667%; }
+  .col-xs-3 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 25%; }
+  .col-xs-4 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 33.33333%; }
+  .col-xs-5 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 41.66667%; }
+  .col-xs-6 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 50%; }
+  .col-xs-7 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 58.33333%; }
+  .col-xs-8 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 66.66667%; }
+  .col-xs-9 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 75%; }
+  .col-xs-10 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 83.33333%; }
+  .col-xs-11 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 91.66667%; }
+  .col-xs-12 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 100%; } }
 
-.col-2 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 16.66667%; }
+@media only screen and (min-width: 768px) {
+  .col-sm-1 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 8.33333%; }
+  .col-sm-2 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 16.66667%; }
+  .col-sm-3 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 25%; }
+  .col-sm-4 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 33.33333%; }
+  .col-sm-5 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 41.66667%; }
+  .col-sm-6 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 50%; }
+  .col-sm-7 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 58.33333%; }
+  .col-sm-8 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 66.66667%; }
+  .col-sm-9 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 75%; }
+  .col-sm-10 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 83.33333%; }
+  .col-sm-11 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 91.66667%; }
+  .col-sm-12 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 100%; } }
 
-.col-3 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 25%; }
+@media only screen and (min-width: 992px) {
+  .col-md-1 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 8.33333%; }
+  .col-md-2 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 16.66667%; }
+  .col-md-3 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 25%; }
+  .col-md-4 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 33.33333%; }
+  .col-md-5 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 41.66667%; }
+  .col-md-6 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 50%; }
+  .col-md-7 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 58.33333%; }
+  .col-md-8 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 66.66667%; }
+  .col-md-9 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 75%; }
+  .col-md-10 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 83.33333%; }
+  .col-md-11 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 91.66667%; }
+  .col-md-12 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 100%; } }
 
-.col-4 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 33.33333%; }
-
-.col-5 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 41.66667%; }
-
-.col-6 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 50%; }
-
-.col-7 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 58.33333%; }
-
-.col-8 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 66.66667%; }
-
-.col-9 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 75%; }
-
-.col-10 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 83.33333%; }
-
-.col-11 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 91.66667%; }
-
-.col-12 {
-  box-sizing: border-box;
-  padding: 12px;
-  width: 100%; }
+@media only screen and (min-width: 1200px) {
+  .col-lg-1 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 8.33333%; }
+  .col-lg-2 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 16.66667%; }
+  .col-lg-3 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 25%; }
+  .col-lg-4 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 33.33333%; }
+  .col-lg-5 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 41.66667%; }
+  .col-lg-6 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 50%; }
+  .col-lg-7 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 58.33333%; }
+  .col-lg-8 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 66.66667%; }
+  .col-lg-9 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 75%; }
+  .col-lg-10 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 83.33333%; }
+  .col-lg-11 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 91.66667%; }
+  .col-lg-12 {
+    box-sizing: border-box;
+    float: left;
+    padding: 12px;
+    width: 100%; } }
 
 .row {
   width: 100%;
-  display: flex; }
+  display: block; }
 
 .container {
   width: 100%; }

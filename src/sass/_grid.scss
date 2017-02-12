@@ -1,17 +1,28 @@
 @import 'variables';
 
-// create columns by looping over the number of cols and width variables
-@for $i from 1 through $number-of-cols {
-  .#{$col-slug}-#{$i} {
-    box-sizing: border-box;
-    padding: $col-padding;
-    width: ( $container-width  * ($i / $number-of-cols) ) + %;
+$media-sizes: (
+   xs: 380px,
+   sm: 768px,
+   md: 992px,
+   lg: 1200px,
+);
+
+@each $size, $width in $media-sizes {
+  @media  only screen and (min-width : $width){
+    @for $i from 1 through $number-of-cols {
+      .#{$col-slug}-#{$size}-#{$i} {
+        box-sizing: border-box;
+        float:left;
+        padding: $col-padding;
+        width: ( $container-width  * ($i / $number-of-cols) ) + %;
+      }
+    }
   }
 }
 
-.row {
+.#{$row-slug} {
   width: $container-width + %;
-  display: flex;
+  display: block;
 }
 
 .container {

@@ -1,5 +1,14 @@
+// the prefix for column classes
 $col-slug: 'col' !default;
 
-$number-of-cols:12;
-$container-width: 100;
-$col-padding: 12px;
+// the class name for a row
+$row-slug: 'row' !default;
+
+// number of columns
+$number-of-cols:12 !default;
+
+// width of the container
+$container-width: 100 !default;
+
+// column padding
+$col-padding: 12px !default;
